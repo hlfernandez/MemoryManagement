@@ -18,8 +18,7 @@ Installation
 You can download the MemoryManagement project directly from Github using the following command:
 `git clone https://github.com/hlfernandez/MemoryManagement.git`
 
-Alternatively, you can download a build version of the project and go to step 3: 
-`https://raw.githubusercontent.com/hlfernandez/MemoryManagement/master/releases/memory-manager-1.0.jar`
+Alternatively, you can download a [build version](https://raw.githubusercontent.com/hlfernandez/MemoryManagement/master/releases/memory-manager-1.0.jar) of the project and go to step 3.
 
 ### 2. Build 
 
@@ -29,6 +28,8 @@ First, go to the MemoryManagement project base directory and run the following c
 ### 3. Launch
 After building you can find the distribution file `memory-manager-1.0.jar` file in the `target` directory. Type `java -jar memory-manager-1.0.jar` to run the application.
 
+The default memory size is 120. If you want to launch the application with a custom memory size, type `java -jar memory-manager-1.0.jar <memory_size>`.
+
 Credits
 ------------
-This implementation is based on the one that can be found at https://1984.lsi.us.es/wiki-ssoo/index.php/SO_multiprogramables_con_particiones_variables.
+This implementation is based on the one that can be found [here](https://1984.lsi.us.es/wiki-ssoo/index.php/SO_multiprogramables_con_particiones_variables).
